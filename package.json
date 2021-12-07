@@ -1,6 +1,6 @@
 {
-  "name": "react-twitter-embed",
-  "version": "3.0.3",
+  "name": ""@stordata/react-twitter-embed",
+  "version": "4.0.0",
   "description": "React Twitter Embed Components",
   "author": "Saurabh Nemade",
   "license": "MIT",
@@ -21,7 +21,8 @@
     "npm": ">=5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
